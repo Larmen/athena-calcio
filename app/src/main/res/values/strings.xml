@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Athena Calcio</string>
+    <string name="back">Back</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">Follow system</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_typeface">Typeface</string>
+    <string name="settings_typeface_system">System</string>
+    <string name="settings_typeface_condensed">Condensed</string>
+    <string name="settings_typeface_serif">Serif</string>
+    <string name="settings_typeface_monospace">Monospace</string>
+    <string name="settings_typeface_cursive">Cursive</string>
+    <string name="settings_typeface_casual">Casual</string>
+    <string name="settings_typeface_vt323" translatable="false">VT323</string>
+    <string name="settings_typeface_plex_mono" translatable="false">IBM Plex Mono</string>
+    <string name="settings_typeface_space_mono" translatable="false">Space Mono</string>
+    <string name="settings_typeface_jetbrains_mono" translatable="false">JetBrains Mono</string>
+    <string name="settings_typeface_inter" translatable="false">Inter</string>
+    <string name="settings_typeface_atkinson" translatable="false">Atkinson Hyperlegible</string>
+    <string name="settings_text_size">Text size: %1$d%%</string>
+    <string name="settings_follow_launcher">Follow Athena Launcher</string>
+    <string name="settings_following_note">Theme, typeface and text size come from Athena Launcher. Change them there, or switch this off to choose here.</string>
+    <string name="settings_following_values">Now: %1$s, %2$s, %3$d%%</string>
+    <string name="settings_launcher_missing">Athena Launcher was not found, so the settings below are used.</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_licences">Open-source licences</string>
+    <string name="licences_title">Open-source licences</string>
+    <string name="licences_show">Show licence text</string>
+    <string name="licences_hide">Hide licence text</string>
+    <string name="a11y_text_smaller">Decrease text size</string>
+    <string name="a11y_text_larger">Increase text size</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading…</string>
+    <string name="licences_intro">Athena Calcio includes the following open-source software and fonts. Serie A data and emblems come from football-data.org, Serie B data from ESPN\'s unofficial public feed (emblems belong to their clubs). Tap a button to read a licence.</string>
+
+    <string name="key_title">API key</string>
+    <string name="key_hint">Athena Calcio reads standings and fixtures from football-data.org. Paste your API key; it is stored encrypted on this phone.</string>
+    <string name="key_label">football-data.org API key</string>
+    <string name="key_save">Save</string>
+    <string name="key_working">Checking…</string>
+    <string name="key_rejected">The API key was refused. Please enter it again.</string>
+    <string name="error_network">Could not reach football-data.org.</string>
+    <string name="error_auth">That API key is not valid.</string>
+    <string name="error_plan">Your football-data.org plan does not include this league.</string>
+    <string name="error_rate">Rate limit reached. Wait a minute and try again.</string>
+    <string name="error_server">football-data.org returned an error.</string>
+    <string name="error_parse">The answer from football-data.org could not be read.</string>
+
+    <string name="tab_favourites">Favourites</string>
+    <string name="tab_serie_a">Serie A</string>
+    <string name="tab_serie_b">Serie B</string>
+    <string name="main_settings">Settings</string>
+    <string name="main_refresh">Refresh</string>
+    <string name="season_matchday">%1$s · matchday %2$d</string>
+    <string name="offline_saved">Offline – showing saved data from %1$s</string>
+    <string name="rate_saved">Rate limit reached – showing saved data from %1$s</string>
+    <string name="standings_empty">No table yet for this season.</string>
+    <string name="col_position">#</string>
+    <string name="col_team">Team</string>
+    <string name="col_played">P</string>
+    <string name="col_goal_diff">GD</string>
+    <string name="col_points">Pts</string>
+    <string name="col_won">W</string>
+    <string name="col_drawn">D</string>
+    <string name="col_lost">L</string>
+    <string name="col_goals_for">GF</string>
+    <string name="col_goals_against">GA</string>
+    <string name="star_add">Add %1$s to favourites</string>
+    <string name="star_remove">Remove %1$s from favourites</string>
+
+    <string name="fav_empty">No favourites yet. Open a league and tap ☆ next to a team.</string>
+    <string name="fav_remove">Remove</string>
+    <string name="fav_remove_a11y">Remove %1$s from favourites</string>
+    <string name="fav_last">Last result</string>
+    <string name="fav_next">Next fixture</string>
+    <string name="fav_no_result">No result yet</string>
+    <string name="fav_no_fixture">No fixture scheduled</string>
+    <string name="fav_loading_data">Loading…</string>
+    <string name="fav_unavailable">Could not load fixtures for this league.</string>
+    <string name="fixture_home">home</string>
+    <string name="fixture_away">away</string>
+    <string name="fixture_postponed">Postponed</string>
+    <string name="fixture_suspended">Suspended</string>
+    <string name="outcome_win">W</string>
+    <string name="outcome_draw">D</string>
+    <string name="outcome_loss">L</string>
+    <string name="league_serie_a">Serie A</string>
+    <string name="league_serie_b">Serie B</string>
+
+    <string name="settings_section_data">Data source</string>
+    <string name="settings_key_saved">API key saved.</string>
+    <string name="settings_key_remove">Remove API key</string>
+    <string name="settings_section_storage">Storage</string>
+    <string name="settings_clear_cache">Clear saved data</string>
+    <string name="fixture_vs">%1$s v %2$s</string>
+    <string name="fixture_result_line">%1$s %2$s %3$s</string>
+    <string name="fixture_live_line">Live · %1$s %2$s %3$s</string>
+    <string name="fixture_date_ha">%1$s · %2$s</string>
+    <string name="fixture_date_time">%1$s, %2$s</string>
+    <string name="offline_none">Offline</string>
+    <string name="outcome_win_a11y">Win</string>
+    <string name="outcome_draw_a11y">Draw</string>
+    <string name="outcome_loss_a11y">Loss</string>
+    <string name="settings_data_sources">Serie A: football-data.org (your API key). Serie B: ESPN (unofficial, no key).</string>
+    <string name="settings_emblems_hint">Team emblems are saved the first time they are shown and kept. They rarely change, so update them about once a season.</string>
+    <string name="settings_update_emblems">Update team emblems</string>
+    <string name="emblems_updating">Updating…</string>
+    <string name="emblems_none">No emblems saved yet.</string>
+    <string name="emblems_updated">Updated %1$d emblems.</string>
+    <string name="emblems_updated_failed">Updated %1$d, could not update %2$d.</string>
+    <string name="league_with_position">%1$s · %2$s</string>
+</resources>

@@ -1,0 +1,18 @@
+# Manual QA (needs a real football-data.org API key)
+- [ ] First run: key screen; a wrong key → "invalid key" message, nothing saved; the right key → main screen.
+- [ ] Serie A table matches the official table (positions, points, GD); season/matchday line is right.
+- [ ] Star a team → appears in Favourites with last result and next fixture; times are in local time.
+- [ ] A team currently playing shows "Live" with score.
+- [ ] Remove favourite from the Favourites view and from the table star.
+- [ ] Airplane mode: saved tables/favourites appear with the "Offline – showing saved data" line.
+- [ ] Refresh button reloads; rapid taps do not fire more than a few requests (rate limit).
+- [ ] Remove API key → key screen; favourites still there after re-entering the key.
+- [ ] Typeface/theme/text size follow the launcher; 140 % text is usable; TalkBack reads star buttons with team names.
+- [ ] Emblems appear between the position and the team name in both orientations; rows do not jump as they load; airplane mode still shows saved emblems; Clear saved data removes them.
+- [ ] Favourites: each card has its emblem at the left, vertically centred on the whole card, at 140 % text too.
+- [ ] Last result badge: W solid, D outlined, L faint, readable in light and dark, with TalkBack saying Win/Draw/Loss.
+- [ ] Serie B tab: table matches the real one; star a Serie B team; Favourites shows Serie A and Serie B teams together with league labels, last result and next fixture for both; emblems for both.
+- [ ] Emblems: Clear saved data and Remove API key leave them in place (airplane mode still shows them); Settings → Update team emblems shows Updating… then a result line, and a failed update (airplane mode) keeps the old emblems.
+- [ ] Favourite cards show "Serie A · Nth" / "Serie B · Nth" matching the tables; offline shows the saved position.
+- [ ] Portrait table is one line per team (position, team, P, Pts, star); no W-D-L line and no GD.
+- [ ] Rotate to landscape on the Serie A table: all ten columns (P W D L GF GA GD Pts) fit on one line, also at 140 % text; rotating back restores the compact table without reloading.
